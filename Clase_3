@@ -1,0 +1,44 @@
+# # booleanos
+
+# requiere_inscripcion = True
+# esta_lluvioso = False
+
+# print(requiere_inscripcion, esta_lluvioso)
+
+
+# # que pasa si no convierto el tipo de dato
+
+# edad = 40
+# precio = 20.5
+# pi = 3.141618
+
+
+# print(type(edad))
+# print(type(precio))
+# print(type(requiere_inscripcion))
+# print(type(pi))
+
+# #print(edad + requiere_inscripcion)
+
+# cantidad = 10
+
+# print (cantidad * 3)
+
+#Registro de ventas
+
+producto = input("Ingrese el nombre del producto: ")
+cantidad = int(input("Ingrese la cantidad vendida: "))
+precio = float(input("Ingrese el precio unitario:"))
+
+
+total = cantidad * precio
+
+print("Producto",producto)
+print("Total", total)
+
+
+
+
+
+
+
